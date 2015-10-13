@@ -40,7 +40,7 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'https://github.com/ricmclaughlin/.git',
+          remote: 'https://github.com/ricmclaughlin/fcc_portfolio.git',
           branch: 'gh-pages'
         }
       }
