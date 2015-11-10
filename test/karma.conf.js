@@ -34,6 +34,7 @@ module.exports = function(config) {
       'bower_components/jasmine/lib/jasmine-core/jasmine.js',
       'bower_components/jasmine-jquery/lib/jasmine-jquery.js',
       'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
+      'bower_components/angular-jasmine-matchers/dist/matchers.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       "app/scripts/**/*.js",
