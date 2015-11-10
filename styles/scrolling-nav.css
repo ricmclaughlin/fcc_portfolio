@@ -40,21 +40,33 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     height: 100%;
+<<<<<<< HEAD
     padding-top: 100px;
+=======
+    padding-top: 150px;
+>>>>>>> gh-pages
     text-align: center;
     
 }
 
 .services-section {
     height: 100%;
+<<<<<<< HEAD
     padding-top: 100px;
+=======
+    padding-top: 150px;
+>>>>>>> gh-pages
     text-align: center;
     
 }
 
 .contact-section {
     height: 100%;
+<<<<<<< HEAD
     padding-top: 100px;
+=======
+    padding-top: 150px;
+>>>>>>> gh-pages
     text-align: center;
     
 }
