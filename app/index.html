@@ -11,10 +11,11 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/scrolling-nav.css">
     <link rel="stylesheet" href="styles/csmb.css">
+    <!-- endbuild -->
+    
   </head>
   <body ng-app="fccPortfolioApp">
     <!--[if lte IE 8]>
@@ -22,7 +23,7 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="header">
+<div class="header">
       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
@@ -46,7 +47,7 @@
                         <a class="page-scroll" href="#aboutme">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -58,12 +59,126 @@
         <!-- /.container -->
       </nav>
     </div>
-
+  <section id="intro" class="intro-section">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+                <h1>Ric McLaughlin</h1>
+                <p></p>
+                
+                <a href="https://github.com/ricmclaughlin" class="csmb csmb-round github">GitHub profile: Ric McLaughlin </a>
+                <a href="http://facebook.com/ric.mclaughlin1" class="csmb csmb-round facebook">facebook: Ric McLaughlin </a>
+                <a href="https://www.linkedin.com/in/ricmclaughlin" class="csmb csmb-round linkedin">Linkedin profile: Ric McLaughlin</a>
+                <a href="https://twitter.com/ric_mclaughlin" class="csmb csmb-round twitter">Twitter Profile: Ric McLaughlin </a>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-rounded" src="images/bio-photo.png" alt="Ric McLaughlin">
+            </div>
+          </div>
+      </div>
+  </section>
+  <section id="aboutme" class="about-section">
     <div class="container">
-    <div ng-view=""></div>
-    </div>
+      <div class="row">
+        <div class="col-lg-10 col-md-offset-1">
+          <h1>About Ric</h1>
+          <p><strong>So, who are you?</strong></p>
 
-    <div class="footer">
+          <p>I build apps. and features. Using <a href="http://ric.mclaughlin.today/process">Ric-ified Lean UX</a>.</p>
+
+          <p><strong>I don't get it. What's with the apps?</strong></p>
+
+          <p>Simple. When I look around I don't see problems; I see puzzles. And apps, if done right, solve puzzles. And I gotta solve the puzzle.</p>
+
+          <p><strong>That's odd. Why must you "gotta solve the puzzle"?</strong></p>
+
+          <p>[me looking down, lightly embarrased] um, cause it's fun I guess.</p>
+
+          <p><strong>So what does that have to do with Lean UX?</strong></p>
+
+          <p>The <a href="http://theleanstartup.com/principles">Lean Startup Methodology</a> when applied to UX, called Lean UX, gives apps the right quality. Not the quality that means "bug free"; quality as in <a href="https://en.wikipedia.org/wiki/Quality_(business)">"fitness for purpose"</a>. The best way to make an app that is fit for its purpose is to build a solution, testing the solution and drawing conclusions from the test and repeat as quickly as possible until you run out of time. Each iteration bring you closer to knowing, not guessing, you have are solving the puzzle.</p>
+
+          <p>But that doesn't solve the "how do we make what they want?" question. So I added some Scrum and some other special sauce and came up with <a href="http://ric.mclaughlin.today/process">Ric-ified Lean UX</a>.</p>
+
+          <p><strong>Ok. But how did you get here?</strong></p>
+
+          <p>First, I <a href="http://ric.mclaughlin.today/images/SoftWarehouse.png">sold computers</a> at <a href="https://en.wikipedia.org/wiki/CompUSA#History">Soft Warehouse</a>, a small shop that later became <a href="https://en.wikipedia.org/wiki/CompUSA">CompUSA</a>, back you needed to go to the store to buy stuff.</p>
+
+          <p>Then I <a href="http://ric.mclaughlin.today/images/act.png">found bugs</a> in ACT! DOS at <a href="https://en.wikipedia.org/wiki/Act!_CRM#History">Contact Software</a>. After <a href="http://www.thefreelibrary.com/SYMANTEC+ACQUIRES+CONTACT+SOFTWARE+INTERNATIONAL%3B+ESTABLISHES+CONTACT...-a013148513">we got bought</a> by Symantec and I <a href="http://ric.mclaughlin.today/images/symantecscm.png">built ACT!</a> for Windows, and ACT! for Mac and ACT! for <a href="https://en.wikipedia.org/wiki/HP_95LX">HP 95LX</a>, and even <a href="http://www.symantec.com/about/news/release/article.jsp?prid=19960108_03">ACT!</a> for <a href="https://en.wikipedia.org/wiki/Newton_(platform">Apple Newton</a>). Then I <a href="http://ric.mclaughlin.today/images/symanteccoretech.png">ran a dev group</a> at Symantec. The ACT! product is still around... except it is <a href="http://www.act.com/">act!</a> now.</p>
+
+          <p>After a move to Austin, I tried to get some <a href="http://ric.mclaughlin.today/images/smartdec.png">development</a> going but ended up I growing a couple of random guys into a really <a href="http://ric.mclaughlin.today/images/smartconsult.png">big consulting group</a> at <a href="http://smartdna.com/">SMART Technologies</a>. No, not that <a href="https://smarttech.com/Home+Page/Landing+Page">SMART technologies</a>. The one that got <a href="http://www.cnet.com/news/i2-nabs-smart-technologies/smart">acquired by i2</a>.</p>
+
+          <p><strong>That seems rational. What happened then?</strong></p>
+
+          <p>I went all irrational. I <a href="http://ric.mclaughlin.today/images/idot.png">built a team</a> to build a configure-to-order computer e-commerce site... called <a href="http://idot.com/">idot.com</a> in <a href="http://www.bizjournals.com/austin/stories/1999/10/18/focus5.html">Dell's shadow</a>. The site was <a href="http://www.prnewswire.com/news-releases/idotcom-wins-accolades-for-ultra-cool-shopping-site-78043117.html">award winning</a> so we totally were going to get big, right! Nope, we went broke. And I didn't make a cent when they <a href="http://www.bizjournals.com/austin/stories/1999/12/06/story8.html">acquired</a>  the website.</p>
+
+          <p>After that, even as the Internet bubble was inflating, I had to party like it was 1999, cause it was, and I had a great name for a new company: <a href="http://ric.mclaughlin.today/images/hcbuscard.png">Holistic Commerce</a>. So I made a neat little <a href="http://ric.mclaughlin.today/images/hclogo.png">brand</a> and started raising money. But the whole thing turned into a walking, breathing, <a href="http://blog.simeonov.com/startup-anti-patterns/">Lean startup anti-pattern</a>. Thankfully, when the time came to take the money, I didn't.</p>
+
+          <p><strong>That sound irrational all right. Did the irrationality continue?</strong></p>
+
+          <p>No, it didn't. After the <a href="https://en.wikipedia.org/wiki/Dot-com_bubble">bubble popped</a>, I found shelter and smooshed the web development, Internet marketing and customer data warehouse of several <a href="http://www.cnet.com/news/mission-critical-and-netiq-merge-in-1-42-billion-deal/">new merged companies</a> (<a href="http://www.webtrends.com/">Webtrends</a>, <a href="https://www.netiq.com/">NetIQ</a> and <a href="http://www.nasdaq.com/markets/ipos/company/mission-critical-software-inc-7686-4447">Mission Critical</a>) into a functioning team. It actually worked.</p>
+
+          <p>But that was all too easy. I needed something harder. Perhaps I should get married, quit my job and be a stay-at-home-dad. No, that isn't hard enough, I should be a <a href="http://www.bavarianintlprep.com">homeschooling stay-at-home-dad</a> and move all over the <a href="https://www.facebook.com/ric.mclaughlin1/map">world</a>.</p>
+
+          <p><strong>So what are you doing now?</strong></p>
+
+          <p>I'm a student of <a href="http://www.freecodecamp.com/ricmclaughlin">sorts</a>... looking for what is next.</p>
+          <p><strong>ok. Just one more question. What's with the origami flying dinosaur?</strong></p>
+
+          <p>Oh, yeah, that's Herby. He's a legendary <a href="http://ric.mclaughlin.today/images/herbycard.png">Scrum-tastic LeanUX-odactyl</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio" class="services-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h1>Selected Projects</h1>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img src="http://lorempixel.com/300/300/cats" alt="kitten" class="img-rounded">
+                        <h3>An upcoming project</h3>
+                        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident cupiditate, eligendi et illum magni! Quam similique explicabo molestias! Quas mollitia adipisci error inventore. Esse natus eum earum, sint molestias consectetur.</span></p>
+                      </div>
+                      <div class="col-md-6">
+                        <img src="http://lorempixel.com/300/300/nature" alt="kitten" class="img-rounded">
+                        <h3>An upcoming project</h3>
+                        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident cupiditate, eligendi et illum magni! Quam similique explicabo molestias! Quas mollitia adipisci error inventore. Esse natus eum earum, sint molestias consectetur.</span></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img src="http://lorempixel.com/300/300/animals" alt="kitten" class="img-rounded">
+                        <h3>An upcoming project</h3>
+                        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident cupiditate, eligendi et illum magni! Quam similique explicabo molestias! Quas mollitia adipisci error inventore. Esse natus eum earum, sint molestias consectetur.</span></p>
+                      </div>
+                      <div class="col-md-6">
+                        <img src="http://lorempixel.com/300/300/food" alt="kitten" class="img-rounded">
+                        <h3>An upcoming project</h3>
+                        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident cupiditate, eligendi et illum magni! Quam similique explicabo molestias! Quas mollitia adipisci error inventore. Esse natus eum earum, sint molestias consectetur.</span></p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section id="contact" class="contact-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h1>Contact Ric</h1>
+                 <a href="https://github.com/ricmclaughlin" class="csmb csmb-round github">GitHub profile: Ric McLaughlin </a>
+                <a href="http://facebook.com/ric.mclaughlin1" class="csmb csmb-round facebook">facebook: Ric McLaughlin </a>
+                <a href="https://www.linkedin.com/in/ricmclaughlin" class="csmb csmb-round linkedin">Linkedin profile: Ric McLaughlin</a>
+                <a href="https://twitter.com/ric_mclaughlin" class="csmb csmb-round twitter">Twitter Profile: Ric McLaughlin </a>
+              </div>
+          </div>
+      </div>
+  </section>
+<div class="footer">
       <div class="container">
           <div class="row">
               <div class="col-md-5 col-md-offset-1">
@@ -83,32 +198,13 @@
         </div>
     </div>
 
-
-    <!-- build:js(.) scripts/vendor.js -->
-    <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
-    <script src="bower_components/angular-animate/angular-animate.js"></script>
-    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
-    <script src="bower_components/angular-resource/angular-resource.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-    <script src="bower_components/angular-touch/angular-touch.js"></script>
-    <script src="bower_components/jasmine/lib/jasmine-core/jasmine.js"></script>
-    <script src="bower_components/jasmine-jquery/lib/jasmine-jquery.js"></script>
-    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-    <script src="bower_components/angular-jasmine-matchers/dist/matchers.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
-
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
-        <!-- endbuild -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 
     <script src="scripts/jquery.easing.min.js"></script>
-    <script src="scripts/scrolling-nav.js"></script>
+
+
+    
 </body>
 </html>
